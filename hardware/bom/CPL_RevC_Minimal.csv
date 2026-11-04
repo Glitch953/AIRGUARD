@@ -1,0 +1,27 @@
+﻿Designator,Val,Package,Mid X,Mid Y,Rotation,Layer,Height,Comment
+U1,ESP32-S3-WROOM-1-N8,RF_Module:ESP32-S3-WROOM-1,56.320,-11.800,270.0,top,0.00,
+J1,USB4085-GF-A,Connector_USB:USB_C_Receptacle_GCT_USB4085,31.840,-41.390,0.0,top,0.00,connector
+U2,AP2112K-3.3TRG1,Package_TO_SOT_SMD:SOT-23-5,17.370,-5.880,0.0,top,0.00,
+C1,10uF,Capacitor_SMD:C_0603_1608Metric,23.350,-2.160,0.0,top,0.00,
+C2,10uF,Capacitor_SMD:C_0603_1608Metric,28.050,-2.160,0.0,top,0.00,
+C3,0.1uF,Capacitor_SMD:C_0603_1608Metric,32.750,-2.160,0.0,top,0.00,
+C4,0.1uF,Capacitor_SMD:C_0603_1608Metric,37.450,-2.160,0.0,top,0.00,
+C5,0.1uF,Capacitor_SMD:C_0603_1608Metric,22.940,-8.610,0.0,top,0.00,
+R1,5.1k,Resistor_SMD:R_0603_1608Metric,23.930,-6.460,0.0,top,0.00,
+R2,5.1k,Resistor_SMD:R_0603_1608Metric,20.930,-15.700,0.0,top,0.00,
+R3,22,Resistor_SMD:R_0603_1608Metric,25.240,-15.600,0.0,top,0.00,
+R4,22,Resistor_SMD:R_0603_1608Metric,28.560,-15.610,0.0,top,0.00,
+D1,"PRTR5V0U2X,215",Package_TO_SOT_SMD:SOT-143,21.580,-12.150,0.0,top,0.00,
+D2,"PRTR5V0U2X,215",Package_TO_SOT_SMD:SOT-143,25.800,-12.990,0.0,top,0.00,
+J2,OLED Header,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,37.340,-9.770,270.0,top,0.00,header
+R5,4.7k,Resistor_SMD:R_0603_1608Metric,31.960,-15.130,0.0,top,0.00,
+R6,4.7k,Resistor_SMD:R_0603_1608Metric,35.690,-15.130,0.0,top,0.00,
+SW1,SKRPACE010,Button_Switch_SMD:SW_SPST_TL3342,45.150,-33.050,0.0,top,0.00,switch
+SW2,SKRPACE010,Button_Switch_SMD:SW_SPST_TL3342,48.320,-40.910,0.0,top,0.00,switch
+SW3,SKRPACE010,Button_Switch_SMD:SW_SPST_TL3342,36.480,-21.950,0.0,top,0.00,switch
+SW4,SKRPACE010,Button_Switch_SMD:SW_SPST_TL3342,54.620,-34.150,0.0,top,0.00,switch
+SW5,SKRPACE010,Button_Switch_SMD:SW_SPST_TL3342,57.470,-41.000,0.0,top,0.00,switch
+SW6,SKRPACE010,Button_Switch_SMD:SW_SPST_TL3342,33.000,-28.730,0.0,top,0.00,switch
+J3,Conn_02x03_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,11.640,-42.150,0.0,top,0.00,header
+R12,10k,Resistor_SMD:R_0603_1608Metric,37.860,-12.000,0.0,bottom,0.00,
+C9,1uF,Capacitor_SMD:C_0603_1608Metric,23.930,-4.310,0.0,bottom,0.00,

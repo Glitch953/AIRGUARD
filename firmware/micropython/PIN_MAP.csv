@@ -1,0 +1,10 @@
+﻿Function,GPIO,Board net / note
+OLED SDA,6,U1 pad 6 / SDA
+OLED SCL,7,U1 pad 7 / SCL
+SW1 Up,1,GPIO1 active-low
+SW2 Down,2,GPIO2 active-low
+SW3 Select,3,GPIO3 active-low; do not hold during reset
+SW4 Back,4,GPIO4 active-low
+SW5 Scan,5,GPIO5 active-low
+SW6 Reset,EN,Hardware reset
+Buzzer,GPIO10,Disabled; U3 DNP

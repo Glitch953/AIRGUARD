@@ -1,0 +1,9 @@
+# KiCad lock and local backup files
+*.lck
+*-backups/
+_autosave-*
+*.bak
+
+# Python cache
+__pycache__/
+*.pyc

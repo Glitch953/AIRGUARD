@@ -1,0 +1,12 @@
+AIRGUARD Rev C — Do Not Populate (DNP)
+======================================
+
+R7 — 4.7k, 0603
+Reason: existing PCB connection is GPIO1-to-GND. Leaving R7 unpopulated removes the fixed pull-down.
+Firmware: configure GPIO1 as INPUT_PULLUP. SW1 remains active-low (pressed = LOW).
+
+U3 — CMT-8540S-SMT-TR
+Reason: magnetic transducer is externally driven and its rated test condition draws up to 150mA at 5V, 4kHz, 50% duty. Existing PCB connects it directly between BUZZER_DRV and GND, without a transistor driver.
+Firmware: disable buzzer output for this revision. Use OLED messages/indicators instead.
+
+Do not hand-fit either part on this revision. The buzzer requires a separate low-side driver design and a new routed/verified PCB revision.

@@ -1,0 +1,32 @@
+AIRGUARD — Rev C Minimal Safe Prototype
+========================================
+
+WHAT THIS REVISION DOES
+- Keeps the original 68.75 x 50.00 mm PCB copper layout and outline.
+- Marks R7 and U3 as DNP in the updated native KiCad schematic.
+- Removes R7 and U3 from the populated BOM and pick-and-place file.
+- Leaves all original Gerbers and drill data unchanged.
+
+IMPORTANT LIMITATIONS
+- This is a reduced-feature prototype assembly, not the fully featured final AIRGUARD.
+- Buzzer is disabled. Do not populate U3.
+- R7 is not populated; firmware must enable the ESP32-S3 internal pull-up on GPIO1.
+- The PCB layout itself has not been rerouted or edited in this revision.
+- Original Gerbers/drill are copied unchanged from the supplied archive.
+- KiCad CLI/pcbnew was unavailable in the authoring environment; no genuine KiCad ERC/DRC, zone refill, or fabrication export was performed.
+- Do not claim ERC/DRC passed. Open the project in KiCad, associate the revised schematic with the PCB, update the PCB from schematic, and run ERC/DRC before ordering.
+
+RECOMMENDED FIRST-ARTICLE TEST
+1. Inspect assembly: confirm R7 and U3 are not fitted.
+2. Power from a current-limited 5V USB supply.
+3. Check 3V3 rail before inserting/programming the ESP32 module if possible.
+4. Program firmware with GPIO1 INPUT_PULLUP and buzzer disabled.
+5. Verify USB enumeration, OLED I2C, all six buttons, Wi-Fi scan operation, and current draw.
+6. Only after this revision works, add a buzzer driver in a new PCB revision.
+
+FILES
+- kicad/: PCB, project, updated schematic
+- fabrication/: original Gerbers/drill, updated BOM/CPL for minimal assembly
+- docs/: DNP and firmware notes
+
+This package intentionally does NOT describe the board as fully validated or production-ready.

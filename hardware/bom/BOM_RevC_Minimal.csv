@@ -1,0 +1,15 @@
+﻿Item,Quantity,Value,Footprint,Designators,LCSC,Mouser,Digi-Key,Manufacturer Part #,MOQ,Lifecycle,Description
+1,1,ESP32-S3-WROOM-1-N8,RF_Module:ESP32-S3-WROOM-1,U1,,,,ESP32-S3-WROOM-1-N8,,,
+2,1,USB4085-GF-A,Connector_USB:USB_C_Receptacle_GCT_USB4085,J1,,,,USB4085-GF-A,,,USB-C
+3,1,AP2112K-3.3TRG1,Package_TO_SOT_SMD:SOT-23-5,U2,,,,AP2112K-3.3TRG1,,,3.3V 600mA
+4,2,10uF,Capacitor_SMD:C_0603_1608Metric,"C1,C2",,,,,,,
+5,3,0.1uF,Capacitor_SMD:C_0603_1608Metric,"C3,C4,C5",,,,,,,
+6,2,5.1k,Resistor_SMD:R_0603_1608Metric,"R1,R2",,,,,,,
+7,2,22,Resistor_SMD:R_0603_1608Metric,"R3,R4",,,,,,,
+8,2,"PRTR5V0U2X,215",Package_TO_SOT_SMD:SOT-143,"D1,D2",,,,"PRTR5V0U2X,215",,,ESD diode
+9,1,OLED Header,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,J2,,,,,,,
+10,2,4.7k,Resistor_SMD:R_0603_1608Metric,"R5,R6",,,,,,,
+11,6,SKRPACE010,Button_Switch_SMD:SW_SPST_TL3342,"SW1,SW2,SW3,SW4,SW5,SW6",,,,SKRPACE010,,,Tactile
+13,1,Conn_02x03_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,J3,,,,Conn_02x03_Odd_Even,,,Debug Header
+14,1,10k,Resistor_SMD:R_0603_1608Metric,R12,,,,,,,
+15,1,1uF,Capacitor_SMD:C_0603_1608Metric,C9,,,,,,,

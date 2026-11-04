@@ -1,0 +1,19 @@
+%TF.GenerationSoftware,RoboDIB,PCB Editor,1.0*%
+%TF.CreationDate,2026-11-04T15:14:48.644061221*%
+%TF.ProjectId,New_Board,6aeb3e7e497b4453bcc68d6f,1.0*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%TF.SameCoordinates,Original*%
+%FSLAX46Y46*%
+%MOMM*%
+G04 #@! TF.GenerationSoftware,RoboDIB,1.0*
+%ADD10R,0.800000X0.950000*%
+%ADD11R,0.900000X0.950000*%
+G01*
+D10*
+X38690000Y-12000000D03*
+X37040000Y-12000000D03*
+D11*
+X24700000Y-4310000D03*
+X23160000Y-4310000D03*
+M02*
