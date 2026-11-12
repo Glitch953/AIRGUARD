@@ -1,0 +1,6 @@
+AIRGUARD GitHub Starter — Procurement update
+
+Added: docs/PURCHASE_LIST_AR.md, docs/PURCHASE_LIST_EN.md, hardware/bom/PURCHASE_BOM_AIRGUARD.csv
+Updated: README.md
+Original KiCad design, firmware, BOM, CPL and reference Gerbers retained unchanged.
+Important: reference Gerbers are not approved for fabrication. See docs/REVISION_STATUS.txt and docs/PURCHASE_LIST_AR.md.

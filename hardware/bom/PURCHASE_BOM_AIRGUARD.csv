@@ -1,0 +1,17 @@
+﻿Part,PCB populated qty,Buy qty (minimum for one build),Indicative unit price,Indicative line total,Currency,What it does,Purchase link,Suggested store,Price/ordering note
+ESP32-S3-WROOM-1-N8,1,1,4.91,4.91,USD,ESP32 Wi-Fi/Bluetooth controller module,https://www.lcsc.com/product-image/C2913198.html,LCSC,Listed price for qty 1; verify current stock/price
+USB4085-GF-A,1,1,1.4141,1.4141,USD,USB-C receptacle,https://www.lcsc.com/search?q=USB4085-GF-A,LCSC,Indicative listing price; verify exact SKU and shipping
+AP2112K-3.3TRG1,1,1,0.28,0.28,USD,3.3V 600mA LDO regulator,https://www.digikey.com/en/products/result?keywords=AP2112K-3.3TRG1,DigiKey,Indicative unit price; confirm package SOT-25 and stock
+10uF 0603 capacitor,2,2,0.03,0.06,USD,Power filtering/decoupling,https://www.lcsc.com/search?q=10uF%200603%20capacitor,LCSC,Budget estimate; choose voltage rating >= 6.3V and X5R/X7R
+0.1uF 0603 capacitor,3,3,0.01,0.03,USD,Local supply decoupling,https://www.lcsc.com/search?q=100nF%200603%20capacitor,LCSC,"Budget estimate; choose X7R, suitable voltage rating"
+5.1kΩ 0603 resistor,2,2,0.01,0.02,USD,USB-C CC pull-down resistors,https://www.lcsc.com/search?q=5.1K%200603%20resistor,LCSC,Budget estimate; 1% or 5% is suitable
+22Ω 0603 resistor,2,2,0.01,0.02,USD,USB data-line series resistors,https://www.lcsc.com/search?q=22R%200603%20resistor,LCSC,Budget estimate; confirm footprint/value
+"PRTR5V0U2X,215",2,2,0.0798,0.1596,USD,USB ESD protection diode array,https://www.lcsc.com/search?q=PRTR5V0U2X%2C215,LCSC,Indicative reference price; exact manufacturer/part required
+OLED header 1x4 2.54mm,1,1,0.10,0.10,USD,Board connector for OLED module,https://www.lcsc.com/search?q=2.54mm%201x4%20pin%20header,LCSC,Budget estimate; choose mating gender to match module
+4.7kΩ 0603 resistor,2,2,0.01,0.02,USD,Pull-up/pull-down resistors per schematic,https://www.lcsc.com/search?q=4.7K%200603%20resistor,LCSC,Budget estimate; R7 is DNP and is not included in populated BOM
+SKRPACE010 tactile switch,6,6,0.0599,0.3594,USD,Five user buttons plus one reset/control switch per design,https://www.lcsc.com/search?q=SKRPACE010,LCSC,Indicative price; distributor may enforce MOQ/packaging quantity
+2x3 2.54mm debug header,1,1,0.15,0.15,USD,Programming/debug connection,https://www.lcsc.com/search?q=2x3%202.54mm%20pin%20header,LCSC,Budget estimate; choose correct orientation/gender
+10kΩ 0603 resistor,1,1,0.01,0.01,USD,Bias/pull resistor per schematic,https://www.lcsc.com/search?q=10K%200603%20resistor,LCSC,Budget estimate
+1uF 0603 capacitor,1,1,0.02,0.02,USD,Local decoupling/filtering,https://www.lcsc.com/search?q=1uF%200603%20capacitor,LCSC,Budget estimate; choose X7R/X5R and suitable voltage rating
+0.96-inch OLED SSD1306 I2C 128x64 module,1,1,6.00,6.00,JOD,Display: SSID/channel/RSSI/authentication information,https://abelaelectronic.com/en/products/096-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd,ABELA Electronics Jordan,Listed local price JOD 6; confirm stock and pin/header arrangement
+4-wire OLED jumper leads (connector genders to match modules),Not on PCB,4,,,,Connect OLED module to J2 by signal name; cross SDA/SCL if needed,https://www.lcsc.com/search?q=2.54mm%20jumper%20wire%20female%20female,LCSC / local electronics shop,Choose wire/connector genders after checking the OLED module and PCB header; price not verified

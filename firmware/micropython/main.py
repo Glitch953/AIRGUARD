@@ -1,6 +1,9 @@
 # AIRGUARD - MicroPython firmware
 # Target: ESP32-S3-WROOM-1-N8
-# Passive Wi-Fi environment scanner. Does NOT connect to APs or transmit deauth/jam frames.
+# Wi-Fi environment scanner for ESP32-S3.
+# WLAN.scan() does not expose a portable passive-only switch in standard MicroPython.
+# Do not describe this firmware as passive-only without verifying the ESP32 port/API.
+# It does not associate with APs, collect credentials, deauthenticate, or jam.
 
 import time
 import gc
@@ -127,7 +130,8 @@ class AirGuard:
         self.message = "Scanning..."
         self.draw()
         try:
-            # Passive scan only. No association, credential collection or packet injection.
+            # Standard MicroPython WLAN.scan(); RF scan mode depends on the ESP32 port.
+            # This call is not sufficient to guarantee passive-only scanning.
             found = self.wlan.scan()
             aps = []
             for item in found[:SCAN_LIMIT]:

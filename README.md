@@ -1,6 +1,6 @@
 # AIRGUARD
 
-A portable, privacy-focused Wi-Fi environment analyzer based on the ESP32-S3. AIRGUARD passively scans nearby Wi-Fi network beacons and displays network metadata (SSID, channel, RSSI and security type) on an SSD1306 OLED.
+A portable, privacy-focused Wi-Fi environment analyzer based on the ESP32-S3. AIRGUARD scans nearby Wi-Fi networks using the ESP32-S3 MicroPython WLAN API and displays network metadata (SSID, channel, RSSI and security type) on an SSD1306 OLED. The current WLAN.scan() implementation is not verified as passive-only.
 
 ## Project status
 
@@ -37,3 +37,13 @@ The firmware uses MicroPython on ESP32-S3. It performs passive Wi-Fi scanning on
 ## License
 
 Add a license before accepting external contributions or reuse.
+
+## Procurement / Build status
+- One-unit purchasing list: `docs/PURCHASE_LIST_AR.md` (Arabic) and `docs/PURCHASE_LIST_EN.md` (English).
+- Structured purchasing BOM with quantities, indicative prices, purposes and store links: `hardware/bom/PURCHASE_BOM_AIRGUARD.csv`.
+- OLED module is an additional purchase item; the original BOM listed only its PCB header.
+- PCB manufacturing is **not yet authorized**: files in `hardware/reference_gerbers_unmodified/` are old reference exports and must not be sent to a board house. See `docs/REVISION_STATUS.txt`.
+
+## Latest engineering preflight (Rev D)
+
+See `docs/ENGINEERING_REVIEW_REV_D_PREFLIGHT.md` and `docs/OLED_WIRING_AR.md`. Schematic values were normalized, OLED wiring order was clarified, and the firmware documentation no longer claims passive-only scanning. The PCB copper routing is unchanged and the reference Gerbers are still not approved for fabrication.
