@@ -47,3 +47,15 @@ Add a license before accepting external contributions or reuse.
 ## Latest engineering preflight (Rev D)
 
 See `docs/ENGINEERING_REVIEW_REV_D_PREFLIGHT.md` and `docs/OLED_WIRING_AR.md`. Schematic values were normalized, OLED wiring order was clarified, and the firmware documentation no longer claims passive-only scanning. The PCB copper routing is unchanged and the reference Gerbers are still not approved for fabrication.
+
+
+## Hardware Design
+
+### 3D Model
+![AIRGUARD 3D Model](docs/images/Protoflow1.png)
+
+### PCB Layout
+![AIRGUARD PCB Layout](docs/images/Protoflow4.png)
+
+### Schematic
+![AIRGUARD Schematic](docs/images/Protoflow5.png)
