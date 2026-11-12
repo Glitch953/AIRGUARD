@@ -1,4 +1,4 @@
-Part,PCB populated qty,Buy qty (minimum for one build),Indicative unit price,Indicative line total,Currency,What it does,Purchase link,Suggested store,Price/ordering note
+﻿Part,PCB populated qty,Buy qty (minimum for one build),Indicative unit price,Indicative line total,Currency,What it does,Purchase link,Suggested store,Price/ordering note
 ESP32-S3-WROOM-1-N8,1,1,4.91,4.91,USD,ESP32 Wi-Fi/Bluetooth controller module,https://www.lcsc.com/product-image/C2913198.html,LCSC,Listed price for qty 1; verify current stock/price
 USB4085-GF-A,1,1,1.4141,1.4141,USD,USB-C receptacle,https://www.lcsc.com/search?q=USB4085-GF-A,LCSC,Indicative listing price; verify exact SKU and shipping
 AP2112K-3.3TRG1,1,1,0.28,0.28,USD,3.3V 600mA LDO regulator,https://www.digikey.com/en/products/result?keywords=AP2112K-3.3TRG1,DigiKey,Indicative unit price; confirm package SOT-25 and stock
@@ -14,5 +14,4 @@ SKRPACE010 tactile switch,6,6,0.0599,0.3594,USD,Five user buttons plus one reset
 10kΩ 0603 resistor,1,1,0.01,0.01,USD,Bias/pull resistor per schematic,https://www.lcsc.com/search?q=10K%200603%20resistor,LCSC,Budget estimate
 1uF 0603 capacitor,1,1,0.02,0.02,USD,Local decoupling/filtering,https://www.lcsc.com/search?q=1uF%200603%20capacitor,LCSC,Budget estimate; choose X7R/X5R and suitable voltage rating
 0.96-inch OLED SSD1306 I2C 128x64 module,1,1,6.00,6.00,JOD,Display: SSID/channel/RSSI/authentication information,https://abelaelectronic.com/en/products/096-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd,ABELA Electronics Jordan,Listed local price JOD 6; confirm stock and pin/header arrangement
-4-wire OLED jumper leads (connector genders to match modules),Not on PCB,1,3.30,3.30,JOD,Connect OLED module to J2 by signal name; cross SDA/SCL if needed,https://besomi.com/jo_en/cwjw0017-header-pin-connector-male-to-female-10cm-10-wire-2-54mm-pitch-flexible-ribbon.html,Besomi Jordan,Listed pack price; verify connector genders and current price
-MECHANIC HK-936D+ soldering station,Not on PCB,1,35.26,35.26,JOD,Temperature-controlled soldering station for assembly; not installed on PCB,https://ward.jo/mechanic-hk-936d-plus-esd-soldering-station.html,Ward Jordan,Listed local price; confirm current stock and price
+4-wire OLED jumper leads (connector genders to match modules),Not on PCB,4,,,,Connect OLED module to J2 by signal name; cross SDA/SCL if needed,https://www.lcsc.com/search?q=2.54mm%20jumper%20wire%20female%20female,LCSC / local electronics shop,Choose wire/connector genders after checking the OLED module and PCB header; price not verified
