@@ -1,0 +1,18 @@
+Part,Qty,Unit Price,Line Total,Currency,Category,Purchase Link,Notes
+ESP32-S3-WROOM-1-N8,1,4.91,4.91,USD,PCB component,https://www.lcsc.com/product-detail/WiFi-Modules_ESPRESSIF-ESP32-S3-WROOM-1-N8_C2913198.html,Indicative price; verify exact SKU and stock
+USB4085-GF-A,1,1.41,1.41,USD,PCB component,https://www.lcsc.com/product-detail/USB-Connectors_Global-Connector-Technology-USB4085-GF-A_C7095263.html,Verify exact SKU and shipping
+AP2112K-3.3TRG1,1,0.28,0.28,USD,PCB component,https://www.digikey.com/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746,Confirm SOT-25 package
+10uF 0603 capacitor,1,0.06,0.06,USD,PCB component,https://www.lcsc.com/product-detail/C19702.html,Choose X5R/X7R and suitable voltage rating
+0.1uF 0603 capacitor,1,0.03,0.03,USD,PCB component,https://www.lcsc.com/search?q=100nF%200603%20X7R,Choose X7R and suitable voltage rating
+5.1kΩ 0603 resistor,1,0.02,0.02,USD,PCB component,https://www.lcsc.com/product-detail/C23186.html,1% or 5% suitable
+22Ω 0603 resistor,1,0.02,0.02,USD,PCB component,https://www.lcsc.com/product-detail/C23345.html,Confirm value and footprint
+PRTR5V0U2X,215,1,0.16,0.16,USD,PCB component,https://www.lcsc.com/product-detail/C12333.html,Confirm exact manufacturer and package
+OLED header 1x4 2.54mm,1,0.10,0.10,USD,PCB component,https://www.lcsc.com/search?q=1x4%202.54mm%20pin%20header,Choose mating gender
+4.7kΩ 0603 resistor,1,0.02,0.02,USD,PCB component,https://www.lcsc.com/product-detail/C23162.html,R7 is DNP; do not populate until design review confirms need
+SKRPACE010 tactile switch,1,0.36,0.36,USD,PCB component,https://www.lcsc.com/category/651.html?scene=FULL_MATCH&globalKeyword=SKRPACE010&s_z=n_q_SKRPACE010,Confirm pack quantity and exact footprint
+2x3 2.54mm debug header,1,0.15,0.15,USD,PCB component,https://www.lcsc.com/search?q=2x3%202.54mm%20pin%20header,Choose correct orientation and gender
+10kΩ 0603 resistor,1,0.01,0.01,USD,PCB component,https://www.lcsc.com/product-detail/C25804.html,Budget estimate
+1uF 0603 capacitor,1,0.02,0.02,USD,PCB component,https://www.lcsc.com/product-detail/C15849.html,Choose X7R/X5R and suitable voltage rating
+0.96-inch OLED SSD1306 I2C 128x64 module,1,6.00,6.00,JOD,Display accessory,https://electrubit.com/en/shop/leds-display-oled-30/eb000166-0-96-inch-i2c-iic-white-oled-lcd-module-4pin-with-gnd-vcc-ssd1306-443,Local listing price; confirm stock and pin order
+4-wire OLED jumper leads,1,3.30,3.30,JOD,Display accessory,https://besomi.com/jo_en/cwjw0017-header-pin-connector-male-to-female-10cm-10-wire-2-54mm-pitch-flexible-ribbon.html,Listed pack price; confirm connector genders and that four conductors can be separated
+MECHANIC HK-936D+ soldering station,1,35.26,35.26,JOD,Assembly tool,https://ward.jo/mechanic-hk-936d-plus-esd-soldering-station.html,Assembly tool; not part of the AIRGUARD PCB
